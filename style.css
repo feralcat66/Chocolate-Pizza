@@ -1,15 +1,39 @@
-/* header */
+/* ingredient list */
 
+article {
+    font-family: cursive;
+    font-size: x-large;
+}
 
+span {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-image: url(/assets/list-bg.png);
+}
 
-/* body */
+/* lorem ipsem */
+p {
+    font-size: x-large;
+}
 
+/* pizza pic */
 .pizza {
     display: block;
+    height: 75%;
+    width: 100%;
     margin-left: auto;
-    margin: auto;
-    width: 75%;
+    margin-right: auto;
+    
 }
-/* footer */
+
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer2 > p {
+    opacity: .75;
+}
 
 
